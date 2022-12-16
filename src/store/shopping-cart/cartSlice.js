@@ -70,7 +70,7 @@ const cartSlice = createSlice({
       );
     },
 
-    // ========= remove item ========
+    // ========= decrement item ========
 
     removeItem(state, action) {
       const id = action.payload;
